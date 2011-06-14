@@ -5,7 +5,7 @@ use utf8;
 use base qw(Template::Plugin);
 use Lingua::JA::Fold qw(fold);
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub new {
 	my ( $class, $context, @params ) = @_;
@@ -31,16 +31,16 @@ __END__
 
 =head1 NAME
 
-Template::Plugin::JA::Fold - Plugin interface to Lingua::JA::Fold
+Template::Plugin::JA::Fold - Template plugin that interface to Lingua::JA::Fold
 
 =head1 SYNOPSIS
 
-  [% USE Fold %]
+  [% USE JA::Fold %]
   [% foo | fold(10,'full-width') %]
 
 =head1 DESCRIPTION
 
-Template::Plugin::Fold is Plugin interface to Lingua::JA::Fold 
+Template::Plugin::JA::Fold is plugin that interface to Lingua::JA::Fold 
 for Template-Toolkit
 
 =head1 AUTHOR
