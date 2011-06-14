@@ -36,7 +36,7 @@ Template::Plugin::JA::Fold - Template plugin that interface to Lingua::JA::Fold
 =head1 SYNOPSIS
 
   [% USE JA::Fold %]
-  [% foo | fold(10,'full-width') %]
+  [% foo | fold(10,'full-width') | html | html_line_break %]
 
 =head1 DESCRIPTION
 
