@@ -2,6 +2,7 @@ package Template::Plugin::JA::Fold;
 use strict;
 use warnings;
 use utf8;
+use 5.008001;
 use base qw(Template::Plugin);
 use Lingua::JA::Fold qw(fold);
 
