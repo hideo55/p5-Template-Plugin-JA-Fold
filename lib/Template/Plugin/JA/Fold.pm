@@ -6,7 +6,7 @@ use 5.008001;
 use base qw(Template::Plugin);
 use Lingua::JA::Fold qw(fold);
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub new {
 	my ( $class, $context, @params ) = @_;
