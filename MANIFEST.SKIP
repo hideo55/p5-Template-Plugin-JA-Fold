@@ -1,6 +1,8 @@
 \bRCS\b
 \bCVS\b
 ^MANIFEST\.
+^MYMETA\.yml
+^MYMETA.json
 ^Makefile$
 ~$
 ^#
@@ -19,5 +21,13 @@
 ^\.shipit$
 ^\.git/
 \.sw[po]$
-^\.project
-^\.gitignore
+\.gitignore
+\.project
+\.travis\.yml$
+MYMETA\.
+^cover_db
+^.includepath
+^\_build
+^Build$
+^Template-Plugin-JA-Fold-
+^MANIFEST\.
