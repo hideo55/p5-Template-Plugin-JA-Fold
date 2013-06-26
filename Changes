@@ -1,5 +1,7 @@
 Revision history for Perl extension Template::Plugin::JA::Fold
 
+{{$NEXT}}
+
 0.03    Mon Oct 22 03:10:00 2012
         - Switch to Module::Build
 

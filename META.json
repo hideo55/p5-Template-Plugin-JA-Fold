@@ -1,0 +1,73 @@
+{
+   "abstract" : "Template plugin that interface to Lingua::JA::Fold",
+   "author" : [
+      "Hideaki Ohno <hide.o.j55 {at} gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v0.5.3, CPAN::Meta::Converter version 2.130880",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Template-Plugin-JA-Fold",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author"
+      ]
+   },
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Template::Test" : "0",
+            "Test::More" : "0.98"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Prereqs" : "0",
+            "Module::Build" : "0.38"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion" : "0.10108",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Lingua::JA::Fold" : "0.08",
+            "Template" : "2.00",
+            "perl" : "5.008001"
+         }
+      }
+   },
+   "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/hideo55/p5-Template-Plugin-JA-Fold/issues"
+      },
+      "homepage" : "https://github.com/hideo55/p5-Template-Plugin-JA-Fold",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/hideo55/p5-Template-Plugin-JA-Fold.git",
+         "web" : "https://github.com/hideo55/p5-Template-Plugin-JA-Fold"
+      }
+   },
+   "version" : "0.03",
+   "x_contributors" : [
+      "hideo55 <hide.o.j55@gmail.com>"
+   ]
+}

@@ -14,6 +14,12 @@ MYMETA.json
 MYMETA.yml
 .includepath
 cover_db
-META.json
 _build
 Build
+/Template-Plugin-JA-Fold-*
+/.build
+/_build_params
+/Build
+!Build/
+!META.json
+!LICENSE
